@@ -1,0 +1,33 @@
+.card{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20%;
+}
+
+.image_box{
+  display: flex;
+  justify-content: center;
+}
+
+.details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.details>h3{
+  text-align: center;
+}
+
+.details>h2{
+  text-align: center;
+}
+
+.details>button{
+  margin: auto;
+  margin-top: 10px;
+  cursor: pointer;
+  height: 40px;
+  border-radius: 10px;
+  width: 80%;
+}
